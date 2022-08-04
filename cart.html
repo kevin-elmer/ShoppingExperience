@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Kevin's Knick Knacks</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/KevinsKnickKnacksLogo.png" alt="Kevin's Knick Knack Logo"></a>
+        <nav>
+            <div id="links">
+                <a href="index.html">HOME</a>
+                <a href="shop.html">SHOP</a>
+                <a href="cart.html">CART</a>
+            </div>
+        </nav>
+    </header>
+    <div id="container">
+        <aside>
+            <div id="sideBarHeading">Order Summary</div>
+            <div id="sideBarContainer">
+                <div class="tableRow">
+                    <div class="tableCell">Subtotal</div>
+                    <div class="tableCell">&dollar; 147.68</div>
+                </div>
+                <div class="tableRow" id="savings">
+                    <div class="tableCell">Savings</div>
+                    <div class="tableCell">&dollar; &minus;18.95</div>
+                </div>
+                <div class="tableRow">
+                    <div class="tableCell bottomBorder">Shipping</div>
+                    <div class="tableCell bottomBorder">&dollar; 9.99</div>
+                </div>
+                <div class="tableRow">
+                    <div class="tableCell">Sales Tax</div>
+                    <div class="tableCell">&dollar; 7.86</div>
+                </div>
+                <div class="tableRow">
+                    <div class="tableCell">Total</div>
+                    <div class="tableCell" id="totalBold">&dollar; 146.58</div>
+                </div>
+            </div>   
+            <div id="checkoutButton">
+                <button>Checkout</button>
+            </div>
+        </aside>
+        <main>
+            <div class="cartCard">
+                <div class="cartCardFlex">
+                    <img src="images/shop/thumbnails/ClownUmbrella_Thumb.jpg" alt="Clown figurine holding an umbrella">
+                    <p class="cartTitle">Clown Umbrella</p>
+                    <p class="cartDescription">A porcelain figurine of a clown holding an umbrella and riding a unicycle</p>
+                    <div class="cartQuantity">
+                        <input type="number" value="1" min="1" max="5">
+                    </div>
+                    <p class="cartPrice">&dollar; 29.95</p>
+                </div>
+                <div class="removeLink">Remove</div>
+            </div>
+            <div class="cartCard">
+                <div class="cartCardFlex">
+                    <img src="images/shop/thumbnails/ElephantFigurines_Thumb.jpg" alt="White elephant figurines">
+                    <p class="cartTitle">Elephant Figurines</p>
+                    <p class="cartDescription">White elephant ceramic figurines decorated with various fine color</p>
+                    <div class="cartQuantity">
+                        <input type="number" value="1" min="1" max="5">
+                    </div>
+                    <p class="cartPrice">&dollar; 18.95</p>
+                </div>
+                <div class="removeLink">Remove</div>
+            </div>
+            <div class="cartCard">
+                <div class="cartCardFlex">
+                    <img src="images/shop/thumbnails/SquishyCaterpillar_Thumb.jpg" alt="Squishy Caterpillar">
+                    <p class="cartTitle">Squishy Caterpillar</p>
+                    <p class="cartDescription">A squashy, spiky, multi-colored caterpillar</p>
+                    <div class="cartQuantity">
+                        <input type="number" value="1" min="1" max="5">
+                    </div>
+                    <p class="cartPrice">&dollar; 9.99</p>
+                </div>
+                <div class="removeLink">Remove</div>
+            </div>
+            <div class="cartCard">
+                <div class="cartCardFlex">
+                    <img src="images/shop/thumbnails/MiniCactus_Thumb.jpg" alt="Mini Cactus">
+                    <p class="cartTitle">Mini Cacus</p>
+                    <p class="cartDescription">A miniature cactus in a pink vase</p>
+                    <div class="cartQuantity">
+                        <input type="number" value="1" min="1" max="5">
+                    </div>
+                    <p class="cartPrice">&dollar; 12.99</p>
+                </div>
+                <div class="removeLink">Remove</div>
+            </div>
+            <div class="cartCard">
+                <div class="cartCardFlex">
+                    <img src="images/shop/thumbnails/Nanoblocks_Thumb.jpg" alt="Nano Nanoblocks">
+                    <p class="cartTitle">Nano Nanoblocks</p>
+                    <p class="cartDescription">The smallest connection blocks on the market</p>
+                    <div class="cartQuantity">
+                        <input type="number" value="1" min="1" max="5">
+                    </div>
+                    <p class="cartPrice">&dollar; 32.95</p>
+                </div>
+                <div class="removeLink">Remove</div>
+            </div>
+            <div class="cartCard">
+                <div class="cartCardFlex">
+                    <img src="images/shop/thumbnails/CuteGoat_Thumb.jpg" alt="Cute goat figurine">
+                    <p class="cartTitle">Cute Goat</p>
+                    <p class="cartDescription">A small white ceramic goat</p>
+                    <div class="cartQuantity">
+                        <input type="number" value="1" min="1" max="5">
+                    </div>
+                    <p class="cartPrice">&dollar; 15.95</p>
+                </div>
+                <div class="removeLink">Remove</div>
+            </div>
+            <div class="cartCard">
+                <div class="cartCardFlex">
+                    <img src="images/shop/thumbnails/LawnGnome_Thumb.jpg" alt="Lawn gnome holding a 'go away' sign">
+                    <p class="cartTitle">Lawn Gnome</p>
+                    <p class="cartDescription">An angry lawn gnome holding a sign that says "GO AWAY!"</p>
+                    <div class="cartQuantity">
+                        <input type="number" value="1" min="1" max="5">
+                    </div>
+                    <p class="cartPrice">&dollar; 7.95</p>
+                </div>
+                <div class="removeLink">Remove</div>
+            </div>
+            <div class="cartCard">
+                <div class="cartCardFlex">
+                    <img src="images/shop/thumbnails/BobRoss_Thumb.jpg" alt="Bob Ross plastic figure">
+                    <p class="cartTitle">Bob Ross</p>
+                    <p class="cartDescription">A Bob Ross plastic figure holding a small tree and paint palette</p>
+                    <div class="cartQuantity">
+                        <input type="number" value="1" min="1" max="5">
+                    </div>
+                    <p class="cartPrice">&dollar; 18.95</p>
+                </div>
+                <div class="removeLink">Remove</div>
+            </div>
+        </main>
+    </div>
+    
+    <footer>
+        <div id="socialMediaLinks">
+            <a href="#"><img src="images/facebook.png" alt="Facebook Icon"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram Icon"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter Icon"></a>
+            <a href="#"><img src="images/linkedin.png" alt="LinkedIn Icon"></a>
+        </div>
+        <div id="footerNav">
+            <a href="cart.html">CART</a>
+            <a href="shop.html">SHOP</a>
+            <a href="index.html">HOME</a>
+        </div>
+        <div id="copyright">&copy; Otech Web Programming<br></div>
+    </footer>
+</body>
+</html>
